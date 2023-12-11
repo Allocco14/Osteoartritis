@@ -17,4 +17,8 @@ COPY convert.py /app/
 COPY get_metadata.py /app/
 
 # Define el comando por defecto al ejecutar el contenedor
-CMD ["python", "get_metadata.py"]
+CMD ["python", "convert.py"]
+
+### Correr estos dos comandos para hacer funcionar el contenedor
+# docker build -t svs-to-png-converter .
+# docker run -v C:/Users/achav/Documents/OA:/app/data svs-to-png-converter
