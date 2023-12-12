@@ -1,6 +1,9 @@
 # Usa una imagen base con Python y herramientas básicas
 FROM python:3.8
 
+# Configura la variable de entorno PYTHONUNBUFFERED
+ENV PYTHONUNBUFFERED=1
+
 # Instala las dependencias necesarias
 RUN apt-get update && apt-get install -y \
     openslide-tools \
