@@ -12,6 +12,9 @@ RUN apt-get update && apt-get install -y \
 # Instala una biblioteca de Python para trabajar con imágenes openslide
 RUN pip install openslide-python
 
+# Instala una biblioteca de Python para mostrar barras de progreso
+RUN pip install tqdm
+
 # Configura el directorio de trabajo
 WORKDIR /app
 

@@ -1,3 +1,4 @@
 *.png
 *.svs
 *.txt
+/detection
