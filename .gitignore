@@ -161,7 +161,6 @@ cython_debug/
 
 *.png
 *.svs
-*.txt
 /detection
 /openslide-win64
 /osteo
