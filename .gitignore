@@ -159,10 +159,10 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-*.png
-*.svs
-/detection
+assets
 /openslide-win64
-/osteo
-*.xml
 /data
+results/png/*_predictions.png
+results/tiff/*_predictions.tiff
+*.h5
+*.keras
