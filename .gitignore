@@ -163,6 +163,6 @@ assets
 /openslide-win64
 /data
 results/png/*_predictions.png
-results/tiff/*_predictions.tiff
+*tiff
 *.h5
 *.keras
